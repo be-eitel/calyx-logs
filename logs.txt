@@ -1,0 +1,947 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- opened ebay-Kleinanzeigen app (com.ebay.kleinanzeigen) v13.6.0
+- scrolled down a bit > laggy ui
+- tried to press burger button > no response
+- tabbed out of app
+- opened app again from recent apps view
+- pressed burger button again > this time it worked
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11-30 01:54:08.150  1492  1492 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10224; state: DISABLED
+11-30 01:54:08.150  1492  1492 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10224; state: ENABLED
+11-30 01:54:08.150  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10224; state: ENABLED
+11-30 01:54:08.156  1492  1710 V DisplayPowerController: Brightness [0.08968604] reason changing to: 'automatic', previous reason: 'manual'.
+11-30 01:54:08.180  1492  1618 I ActivityManager: Start proc 4566:com.reddit.frontpage/u0a224 for service {com.reddit.frontpage/androidx.work.impl.background.systemjob.SystemJobService}
+11-30 01:54:08.223  1492  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to org.chromium.chrome/.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+11-30 01:54:08.223  1492  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.brave.browser/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+11-30 01:54:08.231  1492  1710 I DisplayPowerController: Unblocked screen on after 219 ms
+11-30 01:54:08.254  1492  1710 W PowerManagerService: Screen on took 246 ms
+11-30 01:54:08.254  1492  1710 I DreamManagerService: Gently waking up from dream.
+11-30 01:54:08.256  1492  1552 I DreamManagerService: Performing gentle wake from dream.
+11-30 01:54:08.260  1492  3505 I DreamManagerService: Leaving dreamland.
+11-30 01:54:08.261  1492  1552 I DreamManagerService: Performing gentle wake from dream.
+11-30 01:54:08.261  1492  1552 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0, reason='finished self'(from 'requested stopDream')
+11-30 01:54:08.627  1492  1877 D ConnectivityService: requestNetwork for uid/pid:10224/4566 NetworkRequest [ TRACK_DEFAULT id=1521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10224 AdministratorUids: [] RequestorUid: 10224 RequestorPackageName: com.reddit.frontpage] ]
+11-30 01:54:08.628  1492  1992 D ConnectivityService: NetReassign [1521 : null → 103]
+11-30 01:54:09.436  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1521, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10224 AdministratorUids: [] RequestorUid: 10224 RequestorPackageName: com.reddit.frontpage] ] (release request)
+11-30 01:54:09.436  1492  4783 I ActivityManager: Killing 30405:com.google.android.apps.photos/u0a269 (adj 975): empty #17
+11-30 01:54:09.464  1492  2529 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=1488, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10269 AdministratorUids: [] RequestorUid: 10269 RequestorPackageName: com.google.android.apps.photos] ], android.os.BinderProxy@49edd42)
+11-30 01:54:09.464  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1488, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10269 AdministratorUids: [] RequestorUid: 10269 RequestorPackageName: com.google.android.apps.photos] ] (release request)
+11-30 01:54:17.494  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10248; state: DISABLED
+11-30 01:54:17.494  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10248; state: DISABLED
+11-30 01:54:17.494  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10248; state: DISABLED
+11-30 01:54:17.515  1492  1618 I ActivityManager: Start proc 4797:com.example.barcodescanner/u0a248 for service {com.example.barcodescanner/com.example.barcodescanner.feature.tile.QuickSettingsTileService}
+11-30 01:54:17.703  1492  4783 I ActivityManager: Killing 30328:com.google.android.apps.docs/u0a206 (adj 965): empty #17
+11-30 01:54:22.489  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10158; state: DISABLED
+11-30 01:54:22.490  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10158; state: ENABLED
+11-30 01:54:22.490  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10158; state: ENABLED
+11-30 01:54:22.513  1492  1618 I ActivityManager: Start proc 4833:org.calyxos.ripple/u0a158 for service {org.calyxos.ripple/org.calyxos.ripple.PanicTileService}
+11-30 01:54:23.635  1492  1515 I ActivityManager: Killing 30652:com.android.webview:webview_service/u0a149 (adj 975): empty #17
+11-30 01:54:30.768  1492  1515 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.android.deskclock/.DeskClock bnds=[562,184][1026,816]} from uid 10148
+11-30 01:54:30.789  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10148; state: DISABLED
+11-30 01:54:30.789  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10148; state: DISABLED
+11-30 01:54:30.789  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10148; state: DISABLED
+11-30 01:54:30.807  1492  1618 I ActivityManager: Start proc 4873:com.android.deskclock/u0a148 for pre-top-activity {com.android.deskclock/com.android.deskclock.DeskClock}
+11-30 01:54:30.942  1492  1515 I ActivityTaskManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.android.permissioncontroller cmp=com.android.permissioncontroller/.permission.ui.GrantPermissionsActivity (has extras)} from uid 10148
+11-30 01:54:30.945  1492  2549 D ConnectivityService: requestNetwork for uid/pid:10242/4258 NetworkRequest [ TRACK_DEFAULT id=1522, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10242 AdministratorUids: [] RequestorUid: 10242 RequestorPackageName: com.google.android.youtube] ]
+11-30 01:54:30.946  1492  1992 D ConnectivityService: NetReassign [1522 : null → 103]
+11-30 01:54:30.963  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1522, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10242 AdministratorUids: [] RequestorUid: 10242 RequestorPackageName: com.google.android.youtube] ] (release request)
+11-30 01:54:30.978  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 10148; state: ENABLED
+11-30 01:54:30.979  1492  1515 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 10148; state: DISABLED
+11-30 01:54:46.652  1492  4684 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity bnds=[760,1210][946,1428]} from uid 10163
+11-30 01:54:46.665  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10302; state: DISABLED
+11-30 01:54:46.665  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10302; state: ENABLED
+11-30 01:54:46.665  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10302; state: ENABLED
+11-30 01:54:46.679  1492  1618 I ActivityManager: Start proc 4947:com.ebay.kleinanzeigen/u0a302 for pre-top-activity {com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}
+11-30 01:54:46.846  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:46.855  1492  4144 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10302; state: ENABLED
+11-30 01:54:46.862  1492  4144 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (20454564)
+11-30 01:54:46.899  1492  4144 D ConnectivityService: requestNetwork for uid/pid:10302/4947 NetworkRequest [ TRACK_DEFAULT id=1523, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ]
+11-30 01:54:46.899  1492  1992 D ConnectivityService: NetReassign [1523 : null → 103]
+11-30 01:54:47.057  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10302; state: DISABLED
+11-30 01:54:47.058  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10302; state: ENABLED
+11-30 01:54:47.058  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10302; state: ENABLED
+11-30 01:54:47.070  1492  1618 I ActivityManager: Start proc 5077:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i107 for  {com.ebay.kleinanzeigen/org.chromium.content.app.SandboxedProcessService0:0}
+11-30 01:54:47.092  1492  2549 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10302; state: ENABLED
+11-30 01:54:47.104  1492  4682 D ConnectivityService: requestNetwork for uid/pid:10302/4947 NetworkRequest [ TRACK_DEFAULT id=1524, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ]
+11-30 01:54:47.105  1492  1992 D ConnectivityService: NetReassign [1524 : null → 103]
+11-30 01:54:47.106  1492  1992 D ConnectivityService: NetReassign [no changes]
+11-30 01:54:47.120  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1524, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ] (release request)
+11-30 01:54:47.128  1492  3396 D ConnectivityService: requestNetwork for uid/pid:10302/4947 NetworkRequest [ TRACK_DEFAULT id=1526, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ]
+11-30 01:54:47.128  1492  1992 D ConnectivityService: NetReassign [1526 : null → 103]
+11-30 01:54:47.130  1492  1992 D ConnectivityService: NetReassign [no changes]
+11-30 01:54:47.204  1492  4144 D ConnectivityService: requestNetwork for uid/pid:10302/4947 NetworkRequest [ TRACK_DEFAULT id=1528, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ]
+11-30 01:54:47.205  1492  1992 D ConnectivityService: NetReassign [1528 : null → 103]
+11-30 01:54:47.311  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.353  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.415  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.453  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.492  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.526  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.550  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.558  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1523, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ] (release request)
+11-30 01:54:47.578  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.593  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.612  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.633  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.650  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.696  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 2 lines
+11-30 01:54:47.717  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.740  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.762  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.786  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.808  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.829  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.852  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.874  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.895  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.919  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:47.951  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.004  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.027  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 1 line
+11-30 01:54:48.049  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.075  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.097  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.163  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 3 lines
+11-30 01:54:48.185  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.212  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.242  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.265  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.287  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.309  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.330  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.352  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.386  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.427  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.456  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.479  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.508  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.531  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.556  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.579  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.606  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.631  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.653  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.677  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.703  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.731  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.761  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.849  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 3 lines
+11-30 01:54:48.874  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.902  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.925  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.956  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:48.978  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.004  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 1 line
+11-30 01:54:49.035  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.061  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.087  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.112  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.139  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.166  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.192  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.221  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.255  1492  3396 I chatty  : uid=1000(system) Binder:1492_D identical 1 line
+11-30 01:54:49.280  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.309  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.336  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.357  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.385  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.410  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.438  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.465  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.491  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.516  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.538  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.561  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.585  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.614  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.641  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.666  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.693  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.726  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.752  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.780  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.805  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.836  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.864  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.892  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.919  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.948  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:49.979  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.004  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.028  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.054  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.081  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.112  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.142  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.171  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.203  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.232  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.261  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.327  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.377  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.401  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.423  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.443  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.506  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 3 lines
+11-30 01:54:50.533  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.553  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.571  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.589  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.609  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.630  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.649  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.677  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.702  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.725  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.749  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.835  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.860  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:50.888  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.001  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 3 lines
+11-30 01:54:51.019  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.042  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.059  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.077  1492  4682 I chatty  : uid=1000(system) Binder:1492_1C identical 1 line
+11-30 01:54:51.102  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.129  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.163  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.187  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.211  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.235  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.256  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.280  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.306  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.381  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 3 lines
+11-30 01:54:51.401  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.431  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.455  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.477  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 1 line
+11-30 01:54:51.501  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.525  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.548  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.574  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.599  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.622  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.647  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.671  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.701  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.726  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.757  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.783  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.813  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.839  1492  4144 I chatty  : uid=1000(system) Binder:1492_13 identical 1 line
+11-30 01:54:51.876  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.900  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.929  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.953  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:51.979  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.004  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.030  1492  3396 I chatty  : uid=1000(system) Binder:1492_D identical 1 line
+11-30 01:54:52.059  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.082  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.108  1492  2549 I chatty  : uid=1000(system) Binder:1492_B identical 1 line
+11-30 01:54:52.137  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.164  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.194  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.219  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.245  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.271  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.293  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.312  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.331  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.355  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.378  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.413  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.454  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.497  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.526  1492  2549 I chatty  : uid=1000(system) Binder:1492_B identical 1 line
+11-30 01:54:52.557  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.591  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.620  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.651  1492  4685 I chatty  : uid=1000(system) Binder:1492_1E identical 1 line
+11-30 01:54:52.675  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.701  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.730  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.753  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.778  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.801  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.821  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.850  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.880  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.903  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.922  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.949  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:52.974  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.001  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.027  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.054  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.083  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.111  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.136  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.161  1492  2549 I chatty  : uid=1000(system) Binder:1492_B identical 1 line
+11-30 01:54:53.190  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.217  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.246  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.271  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.320  1492  4684 I chatty  : uid=1000(system) Binder:1492_1D identical 2 lines
+11-30 01:54:53.343  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.364  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.386  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.410  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.438  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.463  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.486  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 1 line
+11-30 01:54:53.516  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.544  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.568  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.589  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.615  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.641  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.667  1492  4682 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.688  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.714  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.734  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.757  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.781  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.804  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.823  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.843  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.867  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.895  1492  4684 I chatty  : uid=1000(system) Binder:1492_1D identical 1 line
+11-30 01:54:53.919  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.941  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.968  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:53.990  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.018  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.041  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.062  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.092  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.121  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.146  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.167  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.194  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.218  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.241  1492  4684 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.249  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 2, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333332, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 01:54:54.267  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.295  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.346  1492  4144 I chatty  : uid=1000(system) Binder:1492_13 identical 2 lines
+11-30 01:54:54.365  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.374  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 1, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333333, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 01:54:54.398  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.425  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.455  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.486  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.515  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.540  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.573  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.599  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.625  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.652  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.678  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.708  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.735  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.761  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.783  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.813  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.829  1492  2549 I chatty  : uid=1000(system) Binder:1492_B identical 1 line
+11-30 01:54:54.857  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.884  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.912  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.940  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:54.975  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.005  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.032  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.060  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.082  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.104  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.126  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.156  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.183  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.204  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.227  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.248  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.273  1492  4144 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.295  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.321  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.390  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 2 lines
+11-30 01:54:55.415  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.438  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.464  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.488  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.518  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.538  1492  1515 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.561  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.582  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.611  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.632  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.655  1492  2549 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.680  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.704  1492  1877 I chatty  : uid=1000(system) Binder:1492_4 identical 1 line
+11-30 01:54:55.730  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.750  1492  3396 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.779  1492  1877 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.807  1492  4783 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.836  1492  4685 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.880  1492  3505 I ActivityTaskManager: START u0 {cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity} from uid 10302
+11-30 01:54:55.881  1492  3505 W ActivityTaskManager: Background activity start [callingPackage: com.ebay.kleinanzeigen; callingUid: 10302; isCallingUidForeground: true; callingUidHasAnyVisibleWindow: false; callingUidProcState: TOP; isCallingUidPersistentSystemProcess: false; realCallingUid: 10302; isRealCallingUidForeground: true; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: TOP; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { cmp=com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity }; callerApp: ProcessRecord{4bfa07 4947:com.ebay.kleinanzeigen/u0a302}]
+11-30 01:54:55.884  1492  3505 W ActivityTaskManager: Activity start request from 10302 stopped
+11-30 01:55:01.109  1492  1563 I ActivityManager: Killing 978:com.android.carrierdefaultapp/u0a123 (adj 975): empty #17
+11-30 01:55:01.109  1492  1563 I ActivityManager: Killing 30227:com.google.android.euicc/u0a132 (adj 975): empty #18
+11-30 01:55:01.110  1492  1563 I ActivityManager: Killing 4947:com.ebay.kleinanzeigen/u0a302 (adj 905): remove task
+11-30 01:55:01.110  1492  1563 I ActivityManager: Killing 5077:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a302i107 (adj 905): remove task
+11-30 01:55:01.185  1492  4619 W ActivityManager: Scheduling restart of crashed service com.ebay.kleinanzeigen/org.chromium.content.app.SandboxedProcessService0:0 in 1000ms for connection
+11-30 01:55:01.225  1492  4751 I WindowManager: WIN DEATH: Window{461f551 u0 com.ebay.kleinanzeigen/ebk.ui.home.HomeActivity}
+11-30 01:55:01.225  1492  4685 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1527, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ], android.os.BinderProxy@350ac1a)
+11-30 01:55:01.225  1492  4618 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=1526, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ], android.os.BinderProxy@3e5634b)
+11-30 01:55:01.225  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1526, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ] (release request)
+11-30 01:55:01.226  1492  4783 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=1528, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ], android.os.BinderProxy@622ee41)
+11-30 01:55:01.226  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1528, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10302 AdministratorUids: [] RequestorUid: 10302 RequestorPackageName: com.ebay.kleinanzeigen] ] (release request)
+11-30 01:55:01.229  1492  4062 W WindowManager: Cannot find window which accessibility connection is added to
+11-30 01:55:01.277  1492  1672 D KernelCpuUidUserSysTimeReader: Removing uids 99105-99105
+11-30 01:55:01.285  1492  1563 W ActivityManager: setHasOverlayUi called on unknown pid: 4947
+11-30 01:55:04.601  1492  1563 I ActivityManager: Killing 4873:com.android.deskclock/u0a148 (adj 900): remove task
+11-30 01:55:04.631  1492  4751 I WindowManager: WIN DEATH: Window{2fd62bc u0 com.android.deskclock/com.android.deskclock.DeskClock}
+11-30 01:55:04.639  1492  1563 W ActivityManager: setHasOverlayUi called on unknown pid: 4873
+11-30 01:55:10.159  1492  1961 D WindowManager: powerPress: eventTime=20477898 interactive=true count=1 beganFromNonInteractive=false mShortPressOnPowerBehavior=1
+11-30 01:55:10.160  1492  1961 I PowerManagerService: Going to sleep due to power_button (uid 1000)...
+11-30 01:55:10.175  1492  4751 D BiometricUtils: isEncrypted: false isLockdown: false
+11-30 01:55:10.176  1492  1492 V FingerprintService: startAuthentication(com.android.systemui)
+11-30 01:55:10.176  1492  1492 V FingerprintService: starting client AuthenticationClientImpl(com.android.systemui) targetUserId: 0 currentUserId: 0 cookie: 0/0
+11-30 01:55:10.192  1492  1492 W FingerprintService: client com.android.systemui is authenticating...
+11-30 01:55:10.603  1492  1710 I DisplayPowerController: Blocking screen off
+11-30 01:55:10.603  1492  1710 I DisplayPowerController: Unblocked screen off after 0 ms
+11-30 01:55:10.625  1492  1710 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING
+11-30 01:55:10.696  1492  1672 D KernelCpuUidUserSysTimeReader: Removing uids 99106-99106
+11-30 01:55:10.706  1492  1710 V DisplayPowerController: Brightness [-1.0] reason changing to: 'screen_off', previous reason: 'automatic'.
+11-30 01:55:10.712  1492  1563 I DisplayManagerService: Display device changed state: "Integrierter Bildschirm", OFF
+11-30 01:55:10.857  1492  1710 I DreamManagerService: Entering dreamland.
+11-30 01:55:10.858  1492  1710 I PowerManagerService: Dozing...
+11-30 01:55:10.860  1492  1552 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+11-30 01:55:11.030  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{cfef1b4 u0 ScreenDecorOverlayBottom}, surfaceController Surface(name=ScreenDecorOverlayBottom)/@0x132f4e9
+11-30 01:55:11.030  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{57224c9 u0 NotificationShade}, surfaceController Surface(name=NotificationShade)/@0x1891332
+11-30 01:55:15.631  1492  1563 W ActivityTaskManager: Sleep timeout!  Sleeping now.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- opened congstar app (de.congstar.meincongstar) v3.5.6
+- tried to press burger button > no response
+- tabbed out of app
+- opened app again from recent apps view
+- pressed burger button again > this time it worked
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+11-30 02:09:53.441  1492  1492 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10205; state: DISABLED
+11-30 02:09:53.443  1492  1492 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10205; state: DISABLED
+11-30 02:09:53.445  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10205; state: DISABLED
+11-30 02:09:53.463  1492  1618 I ActivityManager: Start proc 10194:de.gmx.mobile.android.mail/u0a205 for service {de.gmx.mobile.android.mail/androidx.work.impl.background.systemjob.SystemJobService}
+11-30 02:09:53.837  1492  4780 I ActivityManager: Killing 8049:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a195i109 (adj 975): empty #17
+11-30 02:09:53.854  1492  4780 D ConnectivityService: requestNetwork for uid/pid:10205/10194 NetworkRequest [ TRACK_DEFAULT id=1545, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10205 AdministratorUids: [] RequestorUid: 10205 RequestorPackageName: de.gmx.mobile.android.mail] ]
+11-30 02:09:53.855  1492  1992 D ConnectivityService: NetReassign [1545 : null → 103]
+11-30 02:09:53.887  1492  4685 W ActivityManager: Scheduling restart of crashed service de.hafas.android.db/org.chromium.content.app.SandboxedProcessService0:0 in 1000ms for connection
+11-30 02:09:53.898  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1534, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10195 AdministratorUids: [] RequestorUid: 10195 RequestorPackageName: de.hafas.android.db] ] (release request)
+11-30 02:09:53.906  1492  4780 D ConnectivityService: requestNetwork for uid/pid:10195/7750 NetworkRequest [ TRACK_DEFAULT id=1546, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10195 AdministratorUids: [] RequestorUid: 10195 RequestorPackageName: de.hafas.android.db] ]
+11-30 02:09:53.907  1492  1992 D ConnectivityService: NetReassign [1546 : null → 103]
+11-30 02:09:53.909  1492  1992 D ConnectivityService: NetReassign [no changes]
+11-30 02:09:53.957  1492  4780 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10195; state: DISABLED
+11-30 02:09:53.957  1492  4780 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10195; state: ENABLED
+11-30 02:09:53.957  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10195; state: ENABLED
+11-30 02:09:53.974  1492  1618 I ActivityManager: Start proc 10278:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1/u0i111 for  {de.hafas.android.db/org.chromium.content.app.SandboxedProcessService0:1}
+11-30 02:09:54.302  1492  4186 I ActivityManager: Killing 7750:de.hafas.android.db/u0a195 (adj 975): empty #17
+11-30 02:09:54.411  1492  4186 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1547, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Uid: 10195 AdministratorUids: [] RequestorUid: 10195 RequestorPackageName: de.hafas.android.db] ], android.os.BinderProxy@77fed5a)
+11-30 02:09:54.411  1492  4780 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=1546, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10195 AdministratorUids: [] RequestorUid: 10195 RequestorPackageName: de.hafas.android.db] ], android.os.BinderProxy@965ab8b)
+11-30 02:09:54.411  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1546, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10195 AdministratorUids: [] RequestorUid: 10195 RequestorPackageName: de.hafas.android.db] ] (release request)
+11-30 02:09:54.413  1492  4685 I ActivityManager: Killing 10278:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1/u0a195i111 (adj 0): isolated not needed
+11-30 02:09:54.416  1492  1992 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=1545, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10205 AdministratorUids: [] RequestorUid: 10205 RequestorPackageName: de.gmx.mobile.android.mail] ] (release request)
+11-30 02:09:55.925  1492  4619 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10134; state: DISABLED
+11-30 02:09:55.926  1492  4619 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10134; state: DISABLED
+11-30 02:09:55.926  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10134; state: DISABLED
+11-30 02:09:55.945  1492  1618 I ActivityManager: Start proc 10320:com.android.vending/u0a134 for service {com.android.vending/com.android.vending.billing.InAppBillingService}
+11-30 02:09:56.564  1492  1710 I PowerManagerService: Going to sleep due to timeout (uid 1000)...
+11-30 02:09:56.580  1492  4623 D BiometricUtils: isEncrypted: false isLockdown: false
+11-30 02:09:56.581  1492  1492 V FingerprintService: startAuthentication(com.android.systemui)
+11-30 02:09:56.581  1492  1492 V FingerprintService: starting client AuthenticationClientImpl(com.android.systemui) targetUserId: 0 currentUserId: 0 cookie: 0/0
+11-30 02:09:56.599  1492  1492 W FingerprintService: client com.android.systemui is authenticating...
+11-30 02:09:56.624  1492  1710 V DisplayPowerController: Brightness [0.097996935] reason changing to: 'automatic', previous reason: 'automatic [ dim ]'.
+11-30 02:09:57.041  1492  1710 I DisplayPowerController: Blocking screen off
+11-30 02:09:57.042  1492  1710 I DisplayPowerContrller: Unblocked screen off after 1 ms
+11-30 02:09:57.074  1492  1710 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING
+11-30 02:09:57.132  1492  1672 D KernelCpuUidUserSysTimeReader: Removing uids 99110-99110
+11-30 02:09:57.143  1492  1710 V DisplayPowerController: Brightness [-1.0] reason changing to: 'screen_off', previous reason: 'automatic'.
+11-30 02:09:57.156  1492  1563 I DisplayManagerService: Display device changed state: "Integrierter Bildschirm", OFF
+11-30 02:09:57.311  1492  1710 I DreamManagerService: Entering dreamland.
+11-30 02:09:57.311  1492  1710 I PowerManagerService: Dozing...
+11-30 02:09:57.312  1492  1552 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+11-30 02:09:57.434  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{cfef1b4 u0 ScreenDecorOverlayBottom}, surfaceController Surface(name=ScreenDecorOverlayBottom)/@0x132f4e9
+11-30 02:09:57.434  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{57224c9 u0 NotificationShade}, surfaceController Surface(name=NotificationShade)/@0xc71231e
+11-30 02:10:02.077  1492  1563 W ActivityTaskManager: Sleep timeout!  Sleeping now.
+11-30 02:10:53.254  1492  1492 V FingerprintService: Acquired: 7 0
+11-30 02:10:53.373  1492  1492 V FingerprintService: Acquired: 0 0
+11-30 02:10:53.374  1492  1492 V BiometricStats: Authentication latency: 120
+11-30 02:10:53.375  1492  1492 V FingerprintService: onAuthenticated(true), ID:-1296615026, Owner: com.android.systemui, isBP: false, listener: com.android.server.biometrics.fingerprint.FingerprintService$ServiceListenerImpl@f7437f7, requireConfirmation: false, user: 0
+11-30 02:10:53.383  1492  1492 V FingerprintService: Done with client: com.android.systemui
+11-30 02:10:53.390  1492  4618 I PowerManagerService: Waking up from Dozing (uid=10172, reason=WAKE_REASON_GESTURE, details=android.policy:BIOMETRIC)...
+11-30 02:10:53.392  1492  1710 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+11-30 02:10:53.482  1492  1710 V DisplayPowerController: Brightness [0.097996935] reason changing to: 'manual', previous reason: 'screen_off'.
+11-30 02:10:53.485  1492  1563 I DisplayManagerService: Display device changed state: "Integrierter Bildschirm", ON
+11-30 02:10:53.497  1492  4685 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP
+11-30 02:10:53.546  1492  1710 V DisplayPowerController: Brightness [0.094418176] reason changing to: 'automatic', previous reason: 'manual'.
+11-30 02:10:53.573  1492  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to org.chromium.chrome/.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+11-30 02:10:53.573  1492  1617 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.USER_PRESENT flg=0x24200010 } to com.brave.browser/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver
+11-30 02:10:53.585  1492  1710 I DisplayPowerController: Unblocked screen on after 192 ms
+11-30 02:10:53.638  1492  1710 W PowerManagerService: Screen on took 248 ms
+11-30 02:10:53.638  1492  1710 I DreamManagerService: Gently waking up from dream.
+11-30 02:10:53.639  1492  1552 I DreamManagerService: Performing gentle wake from dream.
+11-30 02:10:53.653  1492  4618 I DreamManagerService: Leaving dreamland.
+11-30 02:10:53.654  1492  1552 I DreamManagerService: Performing gentle wake from dream.
+11-30 02:10:53.654  1492  1552 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0, reason='finished self'(from 'requested stopDream')
+11-30 02:10:56.860  1492  4619 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.congstar.meincongstar/.ui.login.LoginActivity bnds=[654,338][840,556]} from uid 10163
+11-30 02:10:56.880  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10253; state: DISABLED
+11-30 02:10:56.880  1492  1563 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10253; state: ENABLED
+11-30 02:10:56.880  1492  1618 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10253; state: ENABLED
+11-30 02:10:56.893  1492  1618 I ActivityManager: Start proc 10403:de.congstar.meincongstar:CongstarProcess/u0a253 for pre-top-activity {de.congstar.meincongstar/de.congstar.meincongstar.ui.login.LoginActivity}
+11-30 02:10:57.022  1492  1992 D ConnectivityService: NetReassign [no changes]
+11-30 02:10:57.031  1492  4619 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10253; state: ENABLED
+11-30 02:10:57.217  1492  4619 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:57.230  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21424772)
+11-30 02:10:57.476  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:57.567  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425092)
+11-30 02:10:57.577  1492  4685 W ActivityManager: Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+11-30 02:10:57.608  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:57.643  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425428)
+11-30 02:10:57.708  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:57.720  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:57.724  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425504)
+11-30 02:10:57.724  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425504)
+11-30 02:10:57.727  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 128191507)
+11-30 02:10:57.838  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:57.913  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425585)
+11-30 02:10:57.968  1492  4685 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:57.996  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:58.002  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425774)
+11-30 02:10:58.002  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425774)
+11-30 02:10:58.005  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 32243198)
+11-30 02:10:58.117  1492  4685 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:58.126  1492  4685 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:58.228  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21425863)
+11-30 02:10:58.288  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:58.316  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:58.321  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426089)
+11-30 02:10:58.321  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426089)
+11-30 02:10:58.326  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 229293020)
+11-30 02:10:58.428  1492  4685 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:58.439  1492  4685 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:58.514  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426183)
+11-30 02:10:58.586  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:58.615  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:58.623  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426376)
+11-30 02:10:58.624  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426376)
+11-30 02:10:58.631  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 145508202)
+11-30 02:10:58.729  1492  4685 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:58.740  1492  4685 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:58.826  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426486)
+11-30 02:10:58.890  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:58.925  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:58.935  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426688)
+11-30 02:10:58.935  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426688)
+11-30 02:10:58.938  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 210877480)
+11-30 02:10:59.053  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:59.066  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:59.145  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21426796)
+11-30 02:10:59.209  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:59.238  1492  4619 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:59.244  1492  4619 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427007)
+11-30 02:10:59.244  1492  4619 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427007)
+11-30 02:10:59.250  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 236667286)
+11-30 02:10:59.341  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:59.364  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:59.448  1492  4619 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427107)
+11-30 02:10:59.502  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 2, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333332, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 02:10:59.513  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:59.543  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:59.553  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427309)
+11-30 02:10:59.553  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427309)
+11-30 02:10:59.569  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 30403380)
+11-30 02:10:59.657  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:59.677  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:10:59.766  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427416)
+11-30 02:10:59.832  1492  4618 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:10:59.866  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:10:59.875  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427628)
+11-30 02:10:59.875  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427628)
+11-30 02:10:59.885  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 235968642)
+11-30 02:10:59.978  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:10:59.993  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:00.084  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427738)
+11-30 02:11:00.152  1492  4685 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:00.184  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:00.189  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427946)
+11-30 02:11:00.189  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21427946)
+11-30 02:11:00.200  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 66568415)
+11-30 02:11:00.294  1492  4618 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:00.306  1492  4618 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:00.423  1492  4751 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428052)
+11-30 02:11:00.486  1492  4751 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:00.512  1492  4751 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:00.523  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428284)
+11-30 02:11:00.524  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428284)
+11-30 02:11:00.534  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 3942714)
+11-30 02:11:00.629  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:00.643  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:00.729  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428386)
+11-30 02:11:00.791  1492  4618 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:00.821  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:00.831  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428591)
+11-30 02:11:00.832  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428591)
+11-30 02:11:00.839  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 161525368)
+11-30 02:11:00.842  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 1, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333333, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 02:11:00.932  1492  4605 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:00.948  1492  4605 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:01.037  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428694)
+11-30 02:11:01.101  1492  4605 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:01.131  1492  4605 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:01.142  1492  4605 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428899)
+11-30 02:11:01.142  1492  4605 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21428899)
+11-30 02:11:01.154  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 98609063)
+11-30 02:11:01.233  1492  4618 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:01.250  1492  4618 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:01.346  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429005)
+11-30 02:11:01.433  1492  4685 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:01.474  1492  4685 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:01.485  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429208)
+11-30 02:11:01.486  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429208)
+11-30 02:11:01.497  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 187904621)
+11-30 02:11:01.599  1492  4685 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:01.615  1492  4685 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:01.707  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429348)
+11-30 02:11:01.758  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 2, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333332, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 02:11:01.778  1492  4605 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:01.806  1492  4605 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:01.813  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429568)
+11-30 02:11:01.813  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429568)
+11-30 02:11:01.832  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 258990112)
+11-30 02:11:01.870  1492  1563 I DisplayManagerService: Display device changed: DisplayDeviceInfo{"Integrierter Bildschirm": uniqueId="local:19260504575090817", 1080 x 2340, modeId 1, defaultModeId 2, supportedModes [{id=1, width=1080, height=2340, fps=90.0}, {id=2, width=1080, height=2340, fps=60.000004}], colorMode 0, supportedColorModes [0, 7, 9], HdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 435.428 x 433.839 dpi, appVsyncOff 2333333, presDeadline 11500000, cutout DisplayCutout{insets=Rect(0, 136 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 136, 136), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x446d53ad64a0}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, relativeAddress=null}, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+11-30 02:11:01.957  1492  4619 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:01.978  1492  4619 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:02.114  1492  4623 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429677)
+11-30 02:11:02.193  1492  4623 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:02.223  1492  2529 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:02.238  1492  4623 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429976)
+11-30 02:11:02.239  1492  4623 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21429976)
+11-30 02:11:02.247  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 248376960)
+11-30 02:11:02.340  1492  4623 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:02.359  1492  4623 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:02.790  1492  4619 W ActivityManager: Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+--------- beginning of main
+11-30 02:11:03.322  1965  1965 W native  : event_matcher.cc:56 Frame 21431177305000 earlier than last matched event: 21431178133000; dropping
+11-30 02:11:03.342 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:03.342  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:03.428  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:03.545  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:03.554   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:04.456  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:04.456  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:04.636   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:05.130  1965  1965 W native  : event_matcher.cc:56 Frame 21432984732000 earlier than last matched event: 21432986243000; dropping
+11-30 02:11:05.145 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:05.145  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:05.235  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:05.335  1965  1965 I chatty  : uid=9999(nobody) classifier@1.0- identical 21 lines
+11-30 02:11:05.341  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:05.354   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:05.354   889  1911 I chatty  : uid=1000(system) sensors@2.0-ser expire 6 lines
+11-30 02:11:05.630  1965  1965 W native  : event_matcher.cc:56 Frame 21433473748000 earlier than last matched event: 21433474593000; dropping
+11-30 02:11:05.666  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21430101)
+11-30 02:11:05.672  2077  2077 W Choreographer: Frame time is 0.038321 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-30 02:11:05.673   889   985 I chatty  : uid=1000(system) sensors@2.0-ser expire 8 lines
+11-30 02:11:05.674   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:05.674  1492  1974 I chatty  : uid=1000(system) HwBinder:1492_2 expire 6 lines
+11-30 02:11:05.678 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:05.701 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:05.704  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@fe46d48 mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:05.705  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@fe46d48 mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:05.706 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:05.715  1492  2529 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:05.721  1492  4685 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:05.721  1492  4685 W ActivityTaskManager: Activity start request from 10253 stopped
+11-30 02:11:05.722  1492  4685 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21433528)
+11-30 02:11:05.727 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:05.804 10403 11294 W ContextImpl: Failed to ensure /data/user/0/com.google.android.gms/shared_prefs: mkdir failed: ENOENT (No such file or directory)
+11-30 02:11:05.813 10403 11297 W ContextImpl: Failed to ensure /data/user/0/com.google.android.gms/shared_prefs: mkdir failed: ENOENT (No such file or directory)
+11-30 02:11:05.856  1492  2529 W ActivityManager: Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+11-30 02:11:05.860  1492  2549 W ActivityManager: Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+11-30 02:11:05.882 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:05.882 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:05.888  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3301 
+11-30 02:11:05.888  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1979 
+11-30 02:11:05.889  3398  3398 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+11-30 02:11:06.041  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:06.041  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:06.057   580   580 E Layer   : [Surface(name=Task=1)/@0xd855177 - animation-leash#0] No local sync point found
+11-30 02:11:06.057   580   580 E Layer   : [Surface(name=Task=209)/@0x5e23919 - animation-leash#0] No local sync point found
+11-30 02:11:06.375   889  2633 I chatty  : uid=1000(system) POSIX timer 0 expire 8 lines
+11-30 02:11:06.481  1965  1965 W native  : event_matcher.cc:56 Frame 21434296853000 earlier than last matched event: 21434297949000; dropping
+11-30 02:11:06.639   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:07.226  1965  1965 W native  : event_matcher.cc:56 Frame 21435081889000 earlier than last matched event: 21435083369000; dropping
+11-30 02:11:07.389  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21433583)
+11-30 02:11:07.407  1492  2549 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:07.438  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435250)
+11-30 02:11:07.447 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.457 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.460 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.470  1492  4618 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:07.476  1492  2529 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:07.480  1492  2529 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435299)
+11-30 02:11:07.480  1492  2529 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435299)
+11-30 02:11:07.483  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 37590401)
+11-30 02:11:07.490 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.562  1492  4618 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:07.623  1492  2529 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435341)
+11-30 02:11:07.649 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.657 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.660 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.668  1492  4618 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:07.692 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:07.692 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:07.696  1492  4618 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:07.701  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435485)
+11-30 02:11:07.701  1492  4618 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435485)
+11-30 02:11:07.707  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 146776216)
+11-30 02:11:07.713 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.783  1492  2549 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:07.796  1492  2549 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:07.845  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@354ceea mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.845  2476  2476 I chatty  : uid=10163(com.android.launcher3) identical 6 lines
+11-30 02:11:07.845  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@354ceea mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.846  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.846  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.848  1965  1965 W native  : event_matcher.cc:56 Frame 21435703444000 earlier than last matched event: 21435704082000; dropping
+11-30 02:11:07.864  1492  2529 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435563)
+11-30 02:11:07.876  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@354ceea mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.876  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@354ceea mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.876  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.876  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=35]
+11-30 02:11:07.886  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=99]
+11-30 02:11:07.886  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=99]
+11-30 02:11:07.888 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:07.888  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:07.890  2476  2554 W System  : A resource failed to call release. 
+11-30 02:11:07.891  2476  2554 W System  : A resource failed to call release. 
+11-30 02:11:07.903 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.911  2077  2103 I ndroid.systemu: NativeAlloc concurrent copying GC freed 4552(235KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 10MB/43MB, paused 105us total 108.615ms
+11-30 02:11:07.912 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.916 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:07.924  1492  2529 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:07.954  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.959  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.965 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:07.965  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.965 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:07.968  1492  2529 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:07.971  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.976  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.977  1492  2549 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435726)
+11-30 02:11:07.977  1492  2549 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435726)
+11-30 02:11:07.982  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.985  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 82647523)
+11-30 02:11:07.988  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:07.991 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:07.993  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:08.071  1492  4618 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:08.071  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:08.082  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:08.086  1492  4618 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:08.088  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:08.099  1965  1965 W native  : event_matcher.cc:44 Event queue exceeds maximum size; dropping oldest
+11-30 02:11:08.113   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:08.168  1492  2529 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21435840)
+11-30 02:11:08.202 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:08.211 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:08.215 10403 10403 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+11-30 02:11:08.224  1492  4619 I ActivityTaskManager: START u0 {flg=0x4000000 cmp=de.congstar.meincongstar/.features.main.DashboardActivity} from uid 10253
+11-30 02:11:08.252 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:08.253 10403 10403 I ViewTarget: Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+11-30 02:11:08.256  1492  4619 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat= cmp=de.congstar.meincongstar/.features.deeplink.DeepLinkActivity} from uid 10253
+11-30 02:11:08.267  1492  4619 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21436029)
+11-30 02:11:08.267  1492  4619 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (21436029)
+11-30 02:11:08.273  1492  1614 W UsageStatsService: Unexpected activity event reported! (de.congstar.meincongstar/de.congstar.meincongstar.features.main.DashboardActivity event : 2 instanceId : 63253313)
+11-30 02:11:08.282 10403 10403 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+11-30 02:11:08.306 10403 10415 I CongstarProces: Background young concurrent copying GC freed 708043(38MB) AllocSpace objects, 1586(32MB) LOS objects, 61% free, 40MB/104MB, paused 1.356ms total 250.870ms
+11-30 02:11:08.375  1492  4751 I ActivityTaskManager: START u0 {flg=0x1003c000 cmp=de.congstar.meincongstar/.features.login.LoginActivity} from uid 10253
+11-30 02:11:08.377 28734 27298 I chatty  : uid=10136(com.google.android.gms) Binder:28734_C expire 11 lines
+11-30 02:11:08.393  1492  4751 I WindowManager: Queue is too deep! Purged item with taskid=209
+11-30 02:11:08.443  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=355]
+11-30 02:11:08.443  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=355]
+11-30 02:11:08.456  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3301 
+11-30 02:11:08.457  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1979 
+11-30 02:11:08.457  3398  3398 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+11-30 02:11:08.642   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:09.299  1492  1502 I chatty  : uid=1000(system) HeapTaskDaemon expire 1 line
+11-30 02:11:09.342  1492  1504 I chatty  : uid=1000(system) FinalizerDaemon expire 95 lines
+11-30 02:11:09.484  1965  1965 W native  : event_matcher.cc:56 Frame 21437338574000 earlier than last matched event: 21437339758000; dropping
+11-30 02:11:09.593   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:09.594   889  1911 I sensors-hal: onBaroPeakMessage:81, Barometric peak detected: magnitude = 0.219042 hPa (bucket: 5), duration = 79.000000 ms (bucket: 7).
+11-30 02:11:09.595   889  1911 I sensors-hal: reportVendorAtom:28, Vendor atom [id = 100047] reported.
+11-30 02:11:09.851  1965  1965 W native  : event_matcher.cc:56 Frame 21437705574000 earlier than last matched event: 21437706323000; dropping
+11-30 02:11:09.859  1492  1563 I ActivityManager: Killing 10403:de.congstar.meincongstar:CongstarProcess/u0a253 (adj 900): remove task
+11-30 02:11:09.871 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:09.871  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:09.940  2476  2476 E OverviewToHomeAnim: animateFromOverviewToHome: unexpected start state Normal
+11-30 02:11:09.943  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:09.943 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:09.953   889   985 I CHRE    : @ 28722.187: [ip] Peak detected: magnitude = 0.110364 hpa, duration = 40.000000 ms
+11-30 02:11:09.953   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:09.954   889  1911 I sensors-hal: onBaroPeakMessage:81, Barometric peak detected: magnitude = 0.110365 hPa (bucket: 2), duration = 40.000000 ms (bucket: 3).
+11-30 02:11:09.955   889  1911 I sensors-hal: reportVendorAtom:28, Vendor atom [id = 100047] reported.
+11-30 02:11:10.004  1492  4479 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1548, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 10253 AdministratorUids: [] RequestorUid: 10253 RequestorPackageName: de.congstar.meincongstar] ], android.os.BinderProxy@ec1b506)
+11-30 02:11:10.006   760   760 I Zygote  : Process 10403 exited due to signal 9 (Killed)
+11-30 02:11:10.010  1492  1563 W ActivityManager: setHasOverlayUi called on unknown pid: 10403
+11-30 02:11:10.186   889   985 D VSC     : @ 28722.420: [WO] isFlat() nearest_rotation: 4, flat_angle: 65
+11-30 02:11:10.186   889   985 D VSC     : @ 28722.420: [WO] orientation angle 353, orientation 4
+11-30 02:11:10.186   889   985 D VSC     : @ 28722.420: [WO] Gyro angle integrated: 29.016111
+11-30 02:11:10.186   889   985 D VSC     : @ 28722.420: [WO] Rejected by settle_time and gyro finds no rotation 0
+11-30 02:11:10.571  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:10.572  2476  2476 D RecentsOrientedState: current RecentsOrientedState: [this=RecentsOrientedState@10e44cf mOrientationHandler=PortraitPagedViewHandler@3248e5c mDisplayRotation=0 mTouchRotation=0 mRecentsActivityRotation=0 isRecentsActivityRotationAllowed=false mSystemRotation=false mFlags=291]
+11-30 02:11:10.645   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:10.645  1090  1090 I chatty  : uid=1000(system) /vendor/bin/cnss-daemon expire 12 lines
+11-30 02:11:10.678   889  2633 I sensors-hal: [ssc_utils]get_qmi_debug_flag:244, support_qmi_debug : false
+11-30 02:11:11.038  1492  1961 D WindowManager: powerPress: eventTime=21438751 interactive=true count=1 beganFromNonInteractive=false mShortPressOnPowerBehavior=1
+11-30 02:11:11.038  1492  1961 I PowerManagerService: Going to sleep due to power_button (uid 1000)...
+11-30 02:11:11.048  2077  2474 D KeyguardViewMediator: onStartedGoingToSleep(2)
+11-30 02:11:11.048   889  2633 I sensors-hal: [ssc_utils]get_qmi_debug_flag:244, support_qmi_debug : false
+11-30 02:11:11.052  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3301 
+11-30 02:11:11.053  3398  3398 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1979 
+11-30 02:11:11.053  3398  3398 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():79 Notify device unlocked.
+11-30 02:11:11.054  2077  2474 D KeyguardViewMediator: notifyStartedGoingToSleep
+11-30 02:11:11.058  1492  4685 D BiometricUtils: isEncrypted: false isLockdown: false
+11-30 02:11:11.059  2077  2077 D KeyguardUpdateMonitor: fingerprintRunningState: 1
+11-30 02:11:11.059  2077  2077 D KeyguardViewMediator: handleNotifyStartedGoingToSleep
+11-30 02:11:11.059  1492  1492 V FingerprintService: startAuthentication(com.android.systemui)
+11-30 02:11:11.059  1492  1492 V FingerprintService: starting client AuthenticationClientImpl(com.android.systemui) targetUserId: 0 currentUserId: 0 cookie: 0/0
+11-30 02:11:11.078  1492  1492 W FingerprintService: client com.android.systemui is authenticating...
+11-30 02:11:11.298  1965  1965 W native  : event_matcher.cc:56 Frame 21439151581000 earlier than last matched event: 21439152672000; dropping
+11-30 02:11:11.495  1492  1710 I DisplayPowerController: Blocking screen off
+11-30 02:11:11.495  1492  1710 I DisplayPowerController: Unblocked screen off after 1 ms
+11-30 02:11:11.514  1492  1710 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING
+11-30 02:11:11.587  2077  2474 D KeyguardViewMediator: notifyScreenTurnedOff
+11-30 02:11:11.587  2077  2077 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+11-30 02:11:11.588   889   985 D VSC     : @ 28723.823: [Device Orientation] Stop accel
+11-30 02:11:11.589   889   985 D VSC     : @ 28723.823: [Device Orientation] Stop gyro
+11-30 02:11:11.591   889  2633 I sensors-hal: [ssc_utils]get_qmi_debug_flag:244, support_qmi_debug : false
+11-30 02:11:11.594   889   889 I sensors-hal: [hal]batch_physical_sensor:301, com.google.sensor.combo_light/11101, period=250000000, max_latency=0
+11-30 02:11:11.594   889   889 I sensors-hal: [hal]batch_physical_sensor:310, com.google.sensor.combo_light/11101, period=250000000, max_latency=0 request completed
+11-30 02:11:11.596  1492  1710 V DisplayPowerController: Brightness [-1.0] reason changing to: 'screen_off', previous reason: 'automatic'.
+11-30 02:11:11.597   580   580 D SurfaceFlinger: Setting power mode 0 on display 19260504575090817
+11-30 02:11:11.598   582  2862 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 29-0, teardown = 0
+11-30 02:11:11.603   889  2633 I sensors-hal: [ssc_utils]get_qmi_debug_flag:244, support_qmi_debug : false
+11-30 02:11:11.610  1492  1563 I DisplayManagerService: Display device changed state: "Integrierter Bildschirm", OFF
+11-30 02:11:11.621   889   889 I sensors-hal: [hal]activate_physical_sensor:238, com.google.sensor.combo_light/11101 en=0
+11-30 02:11:11.622   889   889 I sensors-hal: [hal]activate_physical_sensor:249, com.google.sensor.combo_light/11101 en=0 completed
+11-30 02:11:11.622   896 15285 I rlsservice: DisableInternal handle 1780695789, mode 1
+11-30 02:11:11.623   896 15285 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-30 02:11:11.623   889   985 I ASH     : @ 28723.858: tcs3701: Client count (type)cur/new: (0)2/1
+11-30 02:11:11.659   889   985 I ASH     : @ 28723.893: touch gesture: received SNS_TBN_RELEASE_BUS_REQ_V01: kernel releasing bus
+11-30 02:11:11.755   889   985 I CHRE    : @ 28723.987: [ip] Peak detected: magnitude = 1.593838 hpa, duration = 600.000000 ms
+11-30 02:11:11.755   873  1783 I CapoDetector: handleNanoappMessage, Id 5147455389092024354, type 3, size 8
+11-30 02:11:11.756   889  1911 I sensors-hal: onBaroPeakMessage:81, Barometric peak detected: magnitude = 1.593838 hPa (bucket: 26), duration = 600.000000 ms (bucket: 46).
+11-30 02:11:11.759   889  1911 I sensors-hal: reportVendorAtom:28, Vendor atom [id = 100047] reported.
+11-30 02:11:11.760   889  2633 I sensors-hal: [DPInfo]file_contents_parse:176, _status = 0
+11-30 02:11:11.760   889  1994 I sensors-hal: enableNanoapp:34, Disabling ip_health nanoapp.
+11-30 02:11:11.760   889  2633 I sensors-hal: [ssc_utils]get_qmi_debug_flag:244, support_qmi_debug : false
+11-30 02:11:11.761   580   580 D SurfaceFlinger: Finished setting power mode 0 on display 19260504575090817
+11-30 02:11:11.761   889  1994 I sensors-hal: reportVendorAtom:28, Vendor atom [id = 100046] reported.
+11-30 02:11:11.763  1492  1710 I DreamManagerService: Entering dreamland.
+11-30 02:11:11.763   889   985 D CHRE    : @ 28723.996: Parsed nanoapp message from host: app ID 0x476f6f676c001022, endpoint 0x9022, msgType 2, payload size 0
+11-30 02:11:11.763   889   985 I CHRE    : @ 28723.996: [ip] Received message from host endpoint 0x9022 of type 2 and size 0.
+11-30 02:11:11.763   889   985 I CHRE    : @ 28723.996: [ip] App disabled by host.
+11-30 02:11:11.764  1492  1710 I PowerManagerService: Dozing...
+11-30 02:11:11.764  1492  1552 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+11-30 02:11:11.766   889   985 I ASH     : @ 28724.001: tcs3701: display status: 0
+11-30 02:11:11.766   889   985 I ASH     : @ 28724.001: tcs3701: display brightness: 114
+11-30 02:11:11.766   889   985 I ASH     : @ 28724.001: tcs3701: display refresh_rate: 0
+11-30 02:11:11.766   889   985 I ASH     : @ 28724.001: tcs3701: ALS trigger disabled!!
+11-30 02:11:11.767   889   985 I ASH     : @ 28724.002: tcs3701: PROX trigger disabled!!
+11-30 02:11:11.768 24254 24254 V GlobalScreenshot: clearing screenshot: close system dialogs
+11-30 02:11:11.768   889   985 I ASH     : @ 28724.003: tcs3701: PERS: 40
+11-30 02:11:11.772  2077  2077 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{f335cc7 I.E...... ......ID 0,0-1080,2340} canPanelBeCollapsed(): false
+11-30 02:11:11.777  2077  2077 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+11-30 02:11:11.780  2077  2281 D KeyguardViewMediator: updateActivityLockScreenState(false, true)
+11-30 02:11:11.781  2077  2077 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+11-30 02:11:11.790  2077  2077 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+11-30 02:11:11.797  2077  2077 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-30 02:11:11.798  2077  2077 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-30 02:11:11.801  2077  2077 W AsyncSensorManager: No plugins registered
+11-30 02:11:11.803   889   985 D VSC     : @ 28724.037: [Device Pickup Sensor] Request accel, interval 20.0 ms, latency 0.0 ms
+11-30 02:11:11.803   889   985 D ASH     : @ 28724.038: SensorType 1 resampler quality 0
+11-30 02:11:11.805   889   985 I VSC     : @ 28724.040: [single-tap-prox-gated] configuring sensor with interval: 1000000, latency: 0
+11-30 02:11:11.805   889   985 D VSC     : @ 28724.040: [Proximity Gated Single Tap Gesture] Request proximity, interval 100.0 ms, latency 0.0 ms
+11-30 02:11:11.806   889   985 D ASH     : @ 28724.040: tcs3701: update_rail_vote: 0->2
+11-30 02:11:11.806   889   985 D VSC     : @ 28724.040: [Proximity Gated Single Tap Gesture] Request touch_gesture, interval 18446744027136.0 ms, latency 0.0 ms
+11-30 02:11:11.806   889   985 D ASH     : @ 28724.040: tcs3701: rail already ON
+11-30 02:11:11.806   889   985 D ASH     : @ 28724.040: tcs3701: power vote set to 1
+11-30 02:11:11.806   889   985 I ASH     : @ 28724.040: tcs3701: Client count (type)cur/new: (3)0/1
+11-30 02:11:11.806   889   985 I ASH     : @ 28724.040: tcs3701: Enabling sensor 3
+11-30 02:11:11.807   889   985 I ASH     : @ 28724.041: tcs3701: PCFG1: 00
+11-30 02:11:11.807   889   985 I ASH     : @ 28724.041: tcs3701: PCFG2: 06
+11-30 02:11:11.807   889   985 I ASH     : @ 28724.041: tcs3701: PCFG4: 03
+11-30 02:11:11.807  2077 27600 D KeyguardViewMediator: onFinishedGoingToSleep(2)
+11-30 02:11:11.807  2077 27600 D KeyguardViewMediator: notifyFinishedGoingToSleep
+11-30 02:11:11.809   889   985 I ASH     : @ 28724.043: tcs3701: New TH: 110 0 200 0
+11-30 02:11:11.809  2077 27600 D KeyguardViewMediator: doKeyguard: showing the lock screen
+11-30 02:11:11.809  2077 27600 D KeyguardViewMediator: showLocked
+11-30 02:11:11.810   889   985 I ASH     : @ 28724.044: tcs3701: PROX trigger disabled!!
+11-30 02:11:11.818   873  1788 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+11-30 02:11:11.818   873  1788 D audio_hw_hfp: hfp_set_parameters: enter
+11-30 02:11:11.819   873  1788 W sound_trigger_hw: sound_trigger_hw_call_back: Unknown event 17
+11-30 02:11:11.819   873  1788 D audio_hw_hfp: hfp_set_parameters: enter
+11-30 02:11:11.819   873  1788 D audio_hw_hfp: hfp_set_parameters: enter
+11-30 02:11:11.826  2077  2077 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-30 02:11:11.827  2077  2077 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{616e7b0 V.ED..... ......ID 136,0-682,145 #7f0a0269 app:id/keyguard_carrier_text} during layout: running second layout pass
+11-30 02:11:11.827   889   889 I sensors-hal: [hal]activate_physical_sensor:238, android.sensor.light/51 en=0
+11-30 02:11:11.828   889   889 I sensors-hal: [hal]activate_physical_sensor:249, android.sensor.light/51 en=0 completed
+11-30 02:11:11.829   889   985 I ASH     : @ 28724.064: tcs3701: Client count (type)cur/new: (0)1/0
+11-30 02:11:11.829   889   985 I ASH     : @ 28724.064: tcs3701: Disabling sensor 0
+11-30 02:11:11.829   889   985 D ASH     : @ 28724.064: tcs3701: start power rail timer, state:3
+11-30 02:11:11.847  2077  2077 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+11-30 02:11:11.848  2077  2077 D KeyguardViewMediator: handleShow
+11-30 02:11:11.851  3398  3398 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():58 onReceive() : Action = android.intent.action.SCREEN_OFF
+11-30 02:11:11.852  3398  3398 I InputBundle: InputBundle.consumeEvent():915 Skip consuming an event as imeStatus is 0
+11-30 02:11:11.852  3398  3398 I DeviceStatusMonitor: DeviceStatusMonitor.updateCountryInfo():121 updateCountryInfo(), notifyAnyway = false
+11-30 02:11:11.853  2077  2077 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-30 02:11:11.853  2077  2077 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+11-30 02:11:11.854  2077  2281 D KeyguardViewMediator: updateActivityLockScreenState(true, true)
+11-30 02:11:11.855  3468  3468 D NfcService: MSG_APPLY_SCREEN_STATE 2
+11-30 02:11:11.856  2077  2077 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=true mOccluded=false isSecure=true force=false --> flags=0x1000000
+11-30 02:11:11.882   889   985 I ASH     : @ 28724.117: touch gesture: update charger mode: 0x02
+11-30 02:11:11.890  2077  2077 D KeyguardUpdateMonitor: onKeyguardVisibilityChanged(true)
+11-30 02:11:11.894  2077  2077 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=true mOccluded=false isSecure=true force=false --> flags=0x1000000
+11-30 02:11:11.896  1492  1492 I chatty  : uid=1000(system) Binder:1492_3 expire 1 line
+11-30 02:11:11.897  2077  2077 D StatusBar: disable<e i a s b h R!c s > disable2<q i n >
+11-30 02:11:11.899  2077  2077 D StatusBar: disable<e i a s b h R c s > disable2<q i n >
+11-30 02:11:11.899  2077  2077 D StatusBar: disable<e i a s b h R c s > disable2<q i n >
+11-30 02:11:11.917  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{cfef1b4 u0 ScreenDecorOverlayBottom}, surfaceController Surface(name=ScreenDecorOverlayBottom)/@0x132f4e9
+11-30 02:11:11.917  1492  1563 V WindowManager: Orientation start waiting for draw, mDrawState=DRAW_PENDING in Window{57224c9 u0 NotificationShade}, surfaceController Surface(name=NotificationShade)/@0x1d2b231
+11-30 02:11:11.924   889   985 I ASH     : @ 28724.158: tcs3701: lux: 18.588323, set TH2 and skip a FAR event.
+11-30 02:11:11.925   889   985 I ASH     : @ 28724.160: tcs3701: New TH: 80 0 200 0
+11-30 02:11:11.930   580   615 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-30 02:11:11.933   889   985 E ASH     : @ 28724.168: touch gesture: updating gesture: double_tap [x], single_tap [v]
+11-30 02:11:11.934   889   985 I ASH     : @ 28724.168: touch gesture: sttw params: max x/y 540 550, mi/max frame 2 26, tolerance 150, recess size 136
+11-30 02:11:11.934   889   985 I ASH     : @ 28724.169: touch gesture: [touch gesture] subscribed
+11-30 02:11:12.027   889   985 I ASH     : @ 28724.261: tcs3701: PROX sample: FAR (0007), POFFSET: 001d, ORE: -1
+11-30 02:11:12.653   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:12.832   889   985 D ASH     : @ 28725.065: tcs3701: TCS3701_POWER_RAIL_PENDING_OFF
+11-30 02:11:12.832   889   985 D ASH     : @ 28725.065: tcs3701: update_rail_vote: 2->0
+11-30 02:11:12.832   889   985 D ASH     : @ 28725.065: tcs3701: power vote set to 0
+11-30 02:11:12.832   889   985 D ASH     : @ 28725.065: tcs3701: TCS3701_POWER_RAIL_PENDING_NONE
+11-30 02:11:13.173   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+11-30 02:11:13.174 13004 13004 I wpa_supplicant: wlan0: CTRL-EVENT-AVOID-FREQ ranges=
+11-30 02:11:13.174 13004 13004 I wpa_supplicant: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=DE
+11-30 02:11:14.658   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+11-30 02:11:14.808   889   985 D VSC     : @ 28727.040: [Device Pickup Sensor] Request accel, interval 20.0 ms, latency 100.0 ms
+11-30 02:11:14.808   889   985 D ASH     : @ 28727.041: SensorType 1 resampler quality 0
+11-30 02:11:16.309 20543 11363 E adbd    : error reading output FD 24: Connection reset by peer
+11-30 02:11:16.518  1492  1563 W ActivityTaskManager: Sleep timeout!  Sleeping now.
+11-30 02:11:16.660   894  2472 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
